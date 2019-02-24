@@ -20,7 +20,32 @@
       <p class="call-to-action">Reach out for the unique sonic experience</p>
       <button class="book-now">BOOK NOW</button>
     </div>
+    <div class="booking-form">
+      <form>
+        <p>First Name:</p>
+        <input type="text" name="First Name" value="">
+        <p>Last Name:</p>
+        <input type="text" name="Last Name" value="">
+        <p>Email:</p>
+        <input type="email" name="email" required>
+        <p>Choose a date:</p>
+        <input type="date" name="date">
+        <button type="submit" class="book-now">SUBMIT</button>
+      </form>
+    </div>
   </div>
+
+<script>
+  const openFormButton = document.getElementsByClassName("book-now")[0];
+
+  const form = document.getElementsByClassName("booking-form")[0];
+
+  function showBookingForm() {
+    form.style.display = "block";
+  }
+
+  openFormButton.addEventListener('click', showBookingForm);
+</script>
 
 </body>
 
