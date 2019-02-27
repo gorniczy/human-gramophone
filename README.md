@@ -4,7 +4,10 @@ Human gramophone is a service provided by live music clubs. It consists in givin
 
 It's fictitious for now, but wouldn't it be great to have such a service at your beloved club?
 
+Developed features:
+
+• a booking user form .
+
 Features to be developed:
 
-• a booking user form ;
 • an option of adding favorite vinyls to the wishlist .
