@@ -22,6 +22,7 @@
     </div>
     <div class="booking-form">
       <form>
+        <img src="imgs/close_button.svg" alt="close_button" class="close">
         <p>First Name:</p>
         <input type="text" name="First Name" value="">
         <p>Last Name:</p>
@@ -40,11 +41,18 @@
 
   const form = document.getElementsByClassName("booking-form")[0];
 
+  const closeFormButton = document.getElementsByClassName('close')[0];
+
   function showBookingForm() {
     form.style.display = "block";
   }
 
+  function hideBookingForm() {
+    form.style.display = "none";
+  }
+
   openFormButton.addEventListener('click', showBookingForm);
+  closeFormButton.addEventListener('click', hideBookingForm);
 </script>
 
 </body>

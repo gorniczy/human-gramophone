@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>close_button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Desktop" transform="translate(-660.000000, -230.000000)" stroke="#2D2D2D" stroke-width="4">
+            <g id="close_button" transform="translate(662.000000, 232.000000)">
+                <path d="M0.5,0.5 L32.6908372,32.6908372" id="Line" transform="translate(16.500000, 16.500000) scale(1, -1) translate(-16.500000, -16.500000) "></path>
+                <path d="M0.5,0.5 L32.6908372,32.6908372" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>
