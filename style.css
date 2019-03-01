@@ -1,6 +1,7 @@
 /* * {
   outline: 1px solid red;
 } */
+
 html {
   height: 100%;
 }
@@ -58,6 +59,18 @@ p {
 img {
   display: block;
   margin: 0 auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 4;
+}
+
+.icon {
+  width: 100px;
+  margin: 0 30px;
 }
 
 .booking {
