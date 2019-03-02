@@ -1,7 +1,6 @@
 /* * {
   outline: 1px solid red;
 } */
-
 html {
   height: 100%;
 }
@@ -149,4 +148,40 @@ form button {
   right: 20px;
   width: 20px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    max-height: 680px;
+    margin: none;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h3 {
+    width: 60%;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  .icon {
+    width: 60px;
+    margin: 0 20px;
+  }
 }
